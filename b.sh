@@ -30,6 +30,7 @@ cd ..
 full_path=$(realpath "./vcpkg/installed/x64-linux")
 export CMAKE_PREFIX_PATH="$full_path"
 
+sudo ldconfig
 
 mkdir build
 cd build
