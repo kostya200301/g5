@@ -13,6 +13,8 @@ cd vcpkg
 
 ./vcpkg install nlohmann-json
 ./vcpkg install gflags
+./vcpkg install cpprestsdk
+
 
 ./vcpkg remove gflags
 
